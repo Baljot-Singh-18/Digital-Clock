@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+        115deg,
+        rgba(128, 128, 128, .9),
+        rgba(0, 0, 0, .9)
+    ), url(https://i0.wp.com/www.additudemag.com/wp-content/uploads/2021/01/GettyImages-1145171942.jpg) no-repeat center center/ cover;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#clockContainer {
+    background-color: rgba(116, 110, 110, 0.75);
+    box-shadow: 0 0 5px black;
+    text-shadow: 0 0 5px black;
+    color: #fff;
+    border-radius: 15px;
+    padding: 40px 60px;
+    max-width: 70%;
+}
+
+header {
+    font-size: 4vw;
+    font-family: 'Marko One', serif;
+    font-style: italic;
+}
+
+#clock {
+    font-size: 5vw;
+    margin-bottom: 20px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10%;
+}
+
+button {
+    padding: 1vw 1.5vw;
+    border-radius: 10px;
+    border: none;
+    background-color: grey;
+    box-shadow: 0 0 5px black;
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Marko One', serif;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: .3s ease;
+}
